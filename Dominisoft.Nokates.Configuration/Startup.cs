@@ -1,5 +1,6 @@
 using Dominisoft.Nokates.Common.Infrastructure.Configuration;
 using Dominisoft.Nokates.Common.Infrastructure.Extensions;
+using Dominisoft.Nokates.Configuration.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -43,7 +44,7 @@ namespace Dominisoft.Nokates.Configuration
             app.UseNokates();
 
             app.UseRouting();
-
+            app.UseMiddleware<LocalOnlyMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {

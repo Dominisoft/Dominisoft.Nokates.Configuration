@@ -6,5 +6,6 @@
   "AuthorizationURL": "http://localhost/Identity/Authentication/ValidateAccess/{0}",
   "ConfigurationDirectory": "\\\\localhost\\Hosting\\ConfigurationFiles",
   "MasterTransformsTemplate": "Master.json",
-  "ConnectionString": "Data Source=Localhost;User ID=Microservice;Password=Password;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+  "ConnectionString": "Data Source=Localhost;User ID=Microservice;Password=Password;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+  "MetricsConnectionString": "Data Source=Localhost;User ID=Microservice;Password=Password;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
 }
